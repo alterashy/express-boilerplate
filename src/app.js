@@ -25,5 +25,5 @@ app.use(errorHandler);
 
 // Server
 app.listen(port, () => {
-  logger.info(`Server is running at ${port}`);
+  logger.info(`Server is running at http://localhost:${port}`);
 });
